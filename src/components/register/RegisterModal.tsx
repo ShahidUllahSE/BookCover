@@ -136,7 +136,7 @@ const RegisterModal = ({
             <Select
               name="role"
               value={formData.role}
-              onChange={handleChange}
+              onChange={handleChange}   
               required
             >
               <option value="">Select Role</option>
@@ -169,6 +169,7 @@ const Select = styled.select`
   margin-bottom: 10px;
   color: black;
   width: 100%;
+  // height:10px;
 `;
 
 const LoginLink = styled.a`
